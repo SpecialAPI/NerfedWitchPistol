@@ -21,7 +21,7 @@ namespace NerfedWitchPistol
 			{
 				this.m_processed = true;
 				this.m_cachedReloadTime = this.m_gun.reloadTime;
-				this.m_gun.reloadTime = 0f;
+				this.m_gun.reloadTime = this.SynergyReloadTime;
 			}
 			else if (!flag && this.m_processed)
 			{
